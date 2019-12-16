@@ -74,7 +74,7 @@ class Student
   SELECT *
   FROM students
   SQL
-  end
+  end.first
 
   
   def save
