@@ -75,7 +75,6 @@ class Student
   FROM students
   LIMIT 1 
   SQL
-  
   end
 
   
