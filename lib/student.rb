@@ -42,11 +42,11 @@ class Student
   end
   
   def self.new_from_db(row)
-   pat = self.new
-    pat.id = row[0]
+   student = self.new
+    student.id = row[0]
     # binding.pry
-    pat.name = row[1]
-    pat.length = row[2]
-    pat
+    student.name = row[1]
+    student.length = row[2]
+    student
   end
 end
