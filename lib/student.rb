@@ -56,7 +56,7 @@ class Student
    end
   end
   
-  def self..first_X_students_in_grade_1
+  def self.first_X_students_in_grade_1
     sql = <<-SQL
     SELECT *
     FROM students
@@ -79,7 +79,6 @@ class Student
       grade TEXT
     )
     SQL
-
     DB[:conn].execute(sql)
   end
 
