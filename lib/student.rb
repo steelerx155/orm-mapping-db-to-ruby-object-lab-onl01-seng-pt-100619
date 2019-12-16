@@ -44,6 +44,7 @@ class Student
   def self.new_from_db(row)
    pat = self.new
     pat.id = row[0]
+    binding.pry
     pat.name = row[1]
     pat.length = row[2]
     pat
