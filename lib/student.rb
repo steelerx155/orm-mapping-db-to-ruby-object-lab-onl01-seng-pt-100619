@@ -16,11 +16,9 @@ class Student
     sql = <<-SQL
     SELECT *
     FROM students
-    student.id = row[0]
-    student.name = row[1]
-    student.grade = row[2]
+    
     SQL
-    DB[:conn].execute(sql)
+    # DB[:conn].execute(sql)
   end
 
   def self.find_by_name(name)
