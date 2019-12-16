@@ -46,7 +46,7 @@ class Student
     student.id = row[0]
     # binding.pry
     student.name = row[1]
-    student.length = row[2]
+    student.grade = row[2]
     student
   end
 end
