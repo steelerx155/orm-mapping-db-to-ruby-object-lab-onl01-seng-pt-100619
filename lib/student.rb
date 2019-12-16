@@ -70,13 +70,11 @@ class Student
   end
   
   def self.first_student_in_grade_10
-   sql = <<-SQL
-    SELECT *
-    FROM students
-    WHERE grade = 10
-    LIMIT 1 
-    SQL 
-   end
+  sql = <<-SQL
+  SELECT *
+  FROM students
+  SQL
+  end
 
   
   def save
