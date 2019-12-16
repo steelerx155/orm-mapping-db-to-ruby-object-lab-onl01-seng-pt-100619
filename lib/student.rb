@@ -73,8 +73,9 @@ class Student
   sql = <<-SQL
   SELECT *
   FROM students
+  LIMIT 1 
   SQL
-  LIMIT 1
+  
   end
 
   
