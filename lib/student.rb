@@ -44,7 +44,6 @@ class Student
   def self.new_from_db(row)
    student = self.new
     student.id = row[0]
-    # binding.pry
     student.name = row[1]
     student.grade = row[2]
     student
