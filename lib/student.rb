@@ -60,6 +60,7 @@ class Student
     sql = <<-SQL
     SELECT *
     FROM students
+    SQL
   
   def save
     sql = <<-SQL
